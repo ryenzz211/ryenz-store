@@ -1,0 +1,113 @@
+.admin {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.admin h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.admin-tabs {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 30px;
+  border-bottom: 2px solid #ddd;
+}
+
+.admin-tabs button {
+  background-color: transparent;
+  color: #333;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  border-bottom: 3px solid transparent;
+  transition: all 0.3s;
+}
+
+.admin-tabs button.active {
+  color: #4CAF50;
+  border-bottom-color: #4CAF50;
+}
+
+.admin-tabs button:hover {
+  color: #4CAF50;
+}
+
+.products-section,
+.orders-section {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.products-section h3,
+.orders-section h3 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.product-form {
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+  display: grid;
+  gap: 15px;
+}
+
+.product-form input,
+.product-form textarea {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 14px;
+  font-family: inherit;
+}
+
+.product-form button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.product-form button:hover {
+  background-color: #45a049;
+}
+
+.products-table,
+.orders-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.products-table thead,
+.orders-table thead {
+  background-color: #333;
+  color: white;
+}
+
+.products-table th,
+.products-table td,
+.orders-table th,
+.orders-table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.products-table tbody tr:hover,
+.orders-table tbody tr:hover {
+  background-color: #f5f5f5;
+}
